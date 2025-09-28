@@ -1,4 +1,4 @@
-require_relative "LegacyInvestigation/LegacyInvestigation.rb"
+require_relative "CercueilCendres/LegacyInvestigation.rb"
 
 def decomposition; DecompositionResearch::ComposeInvestigation.investigate_decomposition; end
 def bequest;             DecompositionResearch::ComposeInvestigation.investigate_bequest; end
